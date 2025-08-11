@@ -12,10 +12,10 @@ class cInventory
 {
 public:
 	cInventory();
-	virtual ~cInventory();
+	~cInventory();
 
-	virtual void Inventory_Ui(cCharacter* pCharacter, cItem* pItem);
-	virtual void Clean_Inventory(cCharacter* pCharacter, cItem* pItem);
+	void Inventory_Ui(cCharacter* pCharacter, cItem* pItem);
+	void Clean_Inventory(cCharacter* pCharacter, cItem* pItem);
 
 	bool Check_Invite_Inventory() { return Is_Invite_Inventory; }
 	void Reset_Invite_Inventory() { Is_Invite_Inventory = 0; }

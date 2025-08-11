@@ -12,7 +12,7 @@ class cMonster :
 {
 public:
 	cMonster();
-	~cMonster();
+	~cMonster() { ; }
 
 protected:
 

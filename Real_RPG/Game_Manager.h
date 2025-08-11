@@ -2,16 +2,17 @@
 #define GAME_MANAGER_H
 
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
 class cGame_Manager
 {
 public:
-	cGame_Manager() { ; }
-	~cGame_Manager() { ; }
+	cGame_Manager() {}
+	~cGame_Manager() {}
 
-	void Select_Num() { cin >> m_cSelect; }
+	void Select_Num() { m_cSelect = _getch(); }
 	char Get_Select_Num() { return m_cSelect; }
 
 protected:

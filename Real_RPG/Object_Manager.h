@@ -16,8 +16,10 @@ public:
 
 	//pGive_Damage_Object : 맞는놈 , pAttack_Obejct : 때리는 놈
 	void Attack(cObject_Manager* pGive_Damage_Object, cObject_Manager* pAttack_Object);
-
+	
 	int Get_Health() { return m_nHealth; }
+	int Get_Strength() { return m_nStrength; }
+	int Get_Defense() { return m_nDefense; }
 
 protected:
 	//기본 틀이 되는 스탯

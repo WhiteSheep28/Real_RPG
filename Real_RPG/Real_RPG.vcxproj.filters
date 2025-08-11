@@ -48,6 +48,12 @@
     <ClCompile Include="Object_Manager.cpp">
       <Filter>소스 파일\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Object_Manager.h">

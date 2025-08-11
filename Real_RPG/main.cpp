@@ -51,7 +51,7 @@ void main()
 
 		switch (pCharacter->Get_Select_Num())
 		{
-		case '1' :
+		case '1': pDungeon->Monster_Spawn(pCharacter, pItem, pInventory); break;
 		case ' ': exit(1);
 		default: continue;
 		}

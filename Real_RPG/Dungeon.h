@@ -13,7 +13,7 @@ using namespace std;
 class cDungeon
 {
 public:
-	cDungeon();
+	cDungeon() {}
 	~cDungeon() { ; }
 
 	void Monster_Spawn(cCharacter* pCharacter, cItem* pItem, cInventory* pInventory);

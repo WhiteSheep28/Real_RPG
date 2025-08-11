@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Character.cpp" />
     <ClCompile Include="Dungeon.cpp" />
     <ClCompile Include="Game_Manager.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Inventory_Manager.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Object_Manager.cpp" />
   </ItemGroup>
   <ItemGroup>
